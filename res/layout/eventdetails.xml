@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+   >
+
+	<ScrollView
+		android:id="@+id/ScrollView01"
+		android:layout_width="fill_parent"	
+		android:layout_height="fill_parent"
+		android:background="@drawable/oldpaper">
+
+	<RelativeLayout
+    
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+   >	
+
+	<TextView
+		android:id="@+id/day"
+		android:textStyle="bold"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textColor="@color/black"
+	    android:textSize="25px"
+	    />
+	
+	  <TextView 
+	      android:id="@+id/space1"
+		android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text=" "
+	    android:layout_toRightOf="@id/day"      
+	      />
+	
+	<TextView
+		android:id="@+id/month"
+		android:textStyle="bold"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_toRightOf="@id/space1"
+	    android:textColor="@color/black"
+	    android:textSize="25px"
+	    />
+	
+	<TextView 
+	      android:id="@+id/space2"
+		android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text=" "
+	    android:layout_toRightOf="@id/month"      
+	      />
+	    
+
+	    
+	<TextView
+		android:id="@+id/year"
+		android:textStyle="bold"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_toRightOf="@id/space2"
+	    android:textColor="@color/black"
+	    android:textSize="25px"
+	    />
+	<TextView
+		android:id="@+id/enter1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/year"
+	    android:textColor="@color/black"
+	    android:text=" " 
+	    android:textSize="25px"
+	    />    
+	<TextView
+		android:id="@+id/event"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textStyle="bold"
+	    android:layout_below="@id/enter1"
+	    android:textColor="@color/black"
+	    android:textSize="25px"
+	    />
+	 <TextView
+		android:id="@+id/enter2"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/event"
+	    android:textColor="@color/black"
+	    android:text=" " 
+	    android:textSize="25px"
+	    />
+	<TextView
+		android:id="@+id/description"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/enter2"
+	    android:textColor="@color/black"
+	    android:textSize="25px"
+	    />
+</RelativeLayout>
+</ScrollView>>
+</RelativeLayout>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+ xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_width="fill_parent"
+ android:layout_height="wrap_content"
+ android:padding="10dip"
+ >
+ 
+<LinearLayout
+
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+   android:orientation="vertical"
+     android:background="@drawable/oldpaper"
+     android:padding="10px"
+ >
+   <TextView
+   android:text="History of India"
+   android:layout_height="wrap_content"
+   android:layout_width="fill_parent"
+   android:gravity="center"
+   android:textColor="@color/black"
+   android:textSize="35px"
+   android:textStyle="bold"   
+/>
+
+<ImageButton
+android:id="@+id/appicon"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:clickable="false"
+android:src="@drawable/appicon"
+android:layout_gravity="center"
+android:layout_marginTop="30px"
+/>
+
+<TextView
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:text="Version:1.2"
+ android:textSize="10sp" 
+ android:textColor="@color/black"
+ android:layout_gravity="center"
+ />
+
+<TextView
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:text="All historical content in this"
+ android:textSize="15sp" 
+ android:textColor="@color/black"
+ android:layout_gravity="center"
+ />
+ 
+<TextView
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:text="application has been sourced"
+ android:textSize="15sp" 
+ android:textColor="@color/black"
+ android:layout_gravity="center"
+ />
+ 
+ <TextView
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:text="from Wikipedia and is available"
+ android:textSize="15sp" 
+ android:textColor="@color/black"
+ android:layout_gravity="center"
+ />
+ 
+ <TextView
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:text="for scrutiny under Commons license."
+ android:textSize="15sp" 
+ android:textColor="@color/black"
+ android:layout_gravity="center"
+ />
+ 
+  <TextView
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:text="The developers are not responsible"
+ android:textSize="15sp" 
+ android:textColor="@color/black"
+ android:layout_gravity="center"
+ />
+ 
+<TextView
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:text="for any inaccuracies which may"
+ android:textSize="15sp" 
+ android:textColor="@color/black"
+ android:layout_gravity="center"
+ />
+ 
+ <TextView
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:text="have arisen as a consequence of"
+ android:textSize="15sp" 
+ android:textColor="@color/black"
+ android:layout_gravity="center"
+ />
+
+ <TextView
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:text="multiple versions of history."
+ android:textSize="15sp" 
+ android:textColor="@color/black"
+ android:layout_gravity="center"
+ />
+
+
+
+ 
+ 
+  <TextView
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:paddingTop="10px"
+ android:text="Developers:"
+ android:textSize="15sp" 
+ android:textColor="@color/black"
+ 
+ />
+   <TextView
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:text="&#169; Sanjay Huilgol"
+ android:textSize="15sp" 
+ android:textColor="@color/black"
+ 
+ />
+   <TextView
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:text="&#169; Anshuman Agnihotri"
+ android:textSize="15sp" 
+ android:textColor="@color/black"
+ 
+ />
+   <TextView
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:text="&#169; Vinit Jain"
+ android:textSize="15sp" 
+ android:textColor="@color/black"
+ 
+ />
+ 
+  <TextView
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:paddingTop="10px"
+ android:text="This application was developed under"
+ android:textSize="15sp" 
+ android:textColor="@color/black"
+ android:layout_gravity="center"
+ />
+ 
+  <TextView
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:text="the guidance of Dr. Kavi Mahesh."
+ android:textSize="15sp" 
+ android:textColor="@color/black"
+ android:layout_gravity="center"
+ />
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="india.history"
+      android:versionCode="3"
+      android:versionName="1.2" android:installLocation="auto"
+      >
+    <uses-sdk android:minSdkVersion="8" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application android:icon="@drawable/appicon" android:label="History Of India">
+        <activity android:name=".splashscreen"
+                  android:label="History Of India"
+                  android:screenOrientation="portrait"
+                  >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".HistoryActivity"
+                  android:label="HISTORY OF INDIA" 
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".About"
+                  android:label="ABOUT"
+                  android:screenOrientation="portrait" />
+        <activity android:name=".chronoList"
+                  android:label="Chronological Search" 
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".alphaList"
+                  android:label="Alphabetical Search" 
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".EventDetails"
+                  android:label="Event Details" 
+                  android:screenOrientation="portrait"/>                        
+
+    </application>
+</manifest>

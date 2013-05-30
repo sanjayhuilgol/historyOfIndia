@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+   
+   
+  >
+  
+  <ScrollView
+		android:id="@+id/ScrollView01"
+		android:layout_width="fill_parent"	
+		android:layout_height="fill_parent"
+		 android:background="@drawable/oldpaper">
+  
+  <LinearLayout 
+  		android:id="@+id/LinearLayout02"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:orientation="vertical"
+		 android:padding="20px">
+  
+  
+  <TextView 
+       android:id="@+id/menuText"
+       android:padding="10px" 
+       android:textSize="27sp" 
+       android:text="MAIN MENU"
+       android:textStyle="bold"
+       android:layout_width="fill_parent" 
+       android:layout_height="wrap_content"
+       android:gravity="center_horizontal"
+       android:textColor="@color/black"
+       />
+  <View 
+  		android:layout_width="fill_parent"
+  		android:layout_height="50px"
+  		android:id="@+id/v"
+  		android:layout_below="@id/menuText"
+  />
+
+   <Button 
+           android:layout_width="fill_parent"
+           android:layout_below="@id/v"
+           android:id="@+id/chronology_button" 
+   	       android:layout_height="wrap_content"
+           android:text="CHRONOLOGY"
+           android:textSize="25sp"   
+           android:layout_toRightOf="@id/chronology_pic"
+           android:textStyle="bold"
+           android:background="@drawable/button"
+           android:drawableLeft="@drawable/chronopic"
+    />
+     <Button 
+           android:layout_width="fill_parent"
+           android:id="@+id/alphabet_button" 
+   	       android:layout_height="wrap_content"
+           android:text="ALPHABET" 
+           android:textSize="25sp"  
+           android:layout_below="@id/chronology_button"
+           android:layout_toRightOf="@id/alphabet_pic"
+           android:textStyle="bold"
+           android:background="@drawable/button"
+           android:drawableLeft="@drawable/alphabet"
+    />
+     <Button 
+           android:layout_width="fill_parent"
+           android:id="@+id/about_button" 
+   	       android:layout_height="wrap_content"
+           android:text="ABOUT"  
+           android:textSize="25sp" 
+           android:layout_below="@id/alphabet_button"
+           android:layout_toRightOf="@id/question_pic"
+           android:textStyle="bold"
+           android:background="@drawable/button"
+           android:drawableLeft="@drawable/aboutpic"
+    />
+     
+   	<Button 
+           android:layout_width="fill_parent"
+           android:id="@+id/exit_button" 
+   	       android:layout_height="wrap_content"
+           android:text="EXIT"  
+           android:textSize="25sp" 
+           android:layout_below="@id/about_button"
+           android:layout_toRightOf="@id/exit_pic"
+           android:textStyle="bold"
+           android:background="@drawable/button"
+           android:drawableLeft="@drawable/logout"
+    />
+ </LinearLayout>   
+</ScrollView>    
+</LinearLayout>
